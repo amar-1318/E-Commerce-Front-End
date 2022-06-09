@@ -1,0 +1,15 @@
+step1)-> create touch .gitignore which ignore files which names written in it
+
+git config --global user.name Harry
+
+git config --global user.email "madhekaramar@gmail.com"
+
+step2)-> git init 
+
+step3)-> git add . (Files will add in staging area)
+
+step4)-> git commit -m "Initial commit
+
+step5)->git status //Just to see
+
+step6)-> $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
