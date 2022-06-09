@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+
+.nav{
+    display: flex;
+    align-items: center;
+    top: 0px;
+    position: sticky;
+    
+}
+ .nav::before{ 
+    content: '';
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+} 
+
+/* Logo Image */
+
+.logo img{
+  
+    width: 69px;
+    height: 60px;
+    margin: 6px 22px;
+}
+
+/* Nav container */
+
+.container li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 6px;
+
+}
+
+.container ul li a:hover{
+    background-color: black;
+    border-radius: 6px;
+    color: aliceblue;
+}
+
+.container li{
+    list-style: none;
+    margin: 20px;
+}
+.container ul{
+    display: flex;
+} 
+
+
+/*------------- Home section ----------------*/
+
+.home h1,p{
+   text-align: center;
+   justify-content: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 40px;
+   
+}
+.home h1{
+    color: black;
+    font-size: 3rem;
+
+}
+.home p{
+    font-size: 1.9rem;
+    padding: 10px 100px;
+}
+
+.home{
+display: flex;
+flex-direction: column;
+padding: 10px 200px;
+/* position: relative; */
+height: 555px;
+justify-content: center;
+text-align: center;
+
+}
+.home::before{
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0px;
+   width: 100%;
+   height: 759px;
+   left: 0px;
+   background: url('background.jpg')no-repeat center center/cover;
+   /* max-width: 100%; */
+   opacity: 0.6;
+
+
+}
+
+
+
+/* -----------items ------------*/
+.items{
+   margin: 40px;
+   display: flex;
+/* align-items: center; */
+/* justify-content: center; */
+}
+
+.item1{
+   
+   /* align-items: center; */
+   /* border: 2px solid black; */
+   margin: 4px;
+   background-color: rgb(247, 247, 247);
+   padding: 20px;
+   margin: 20px 8px;
+   border-radius: 12px;
+
+
+}
+.items h2{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+}
+.item1 img{
+   /* align-items: center; */
+   margin: 10px 65px;
+   width: 100px;
+   height: 100px;
+}
+
+
+/* -------------Buttoms-------------- */
+.btn{
+   padding: 8px 15px;
+   border-radius: 6px;
+   font-weight: bold;
+
+   margin: 20px 80px;
+   background-color: rgb(243, 239, 239);
+   cursor: pointer;
+   font-size: 1.2rem;
+
+}
+.btn:hover{
+   background-color: rgb(167, 164, 164);
+   transition: 0.8sec;
+}
+
+
+/* Oiol section */
+.h1{
+   text-align: center;
+   justify-content: center;
+   font-size: 3rem;
+   margin-top: 20px;
+   font-weight: bolder;
+}
+.item1{
+   /* position: relative; */
+}
+.item1:hover{
+   padding: 20px;
+   border: 2px solid rgb(146, 145, 145);
+   transition: 0.4sec;
+   font-size: 1.1rem;
+   box-shadow: 0px 8px 70px 0px rgb(0,0,0,.15);
+
+}
+
+/* items 2 */
+.items2{
+   margin: 40px;
+   display: flex;
+   /* flex-direction: column; */
+}
+.item12{
+    text-align: center;
+   margin: 4px;
+   background-color: rgb(247, 247, 247);
+   padding: 20px;
+   margin: 20px 8px;
+   border-radius: 12px
+}
+.item12 img{
+   /* align-items: center; */
+   margin: 10px 65px;
+   width: 100px;
+   height: 100px;
+}
+.items2 h2{
+   align-items: center;
+
+}
+.item12:hover{
+   padding: 20px;
+   border: 2px solid rgb(146, 145, 145);
+   transition: 0.4sec;
+   font-size: 1.1rem;
+   box-shadow: 0px 8px 70px 0px rgb(0,0,0,.15);
+
+}
+
+span{
+   margin:  78px;
+}
+a{
+   text-decoration: none;
+   margin: 5px;
+}
+/*------------ Footer-------------- */
+footer{
+    background-color: rgb(116, 112, 112);
+    padding: 50px;
+}
+
+footer .pages{
+    text-align: center;
+    margin: 10px 10px;
+}
+footer .pages a{
+    color: rgb(206, 197, 197);
+    margin: 10px;
+    font-size: 1.1rem;
+}
+footer .pages a:hover{
+    color: rgb(48, 44, 44);
+}
+h3{
+    margin: 15px;
+    font-size: 1.6rem;
+    color: rgb(43, 41, 41);
+}
+
+/* footer doc */
+footer .doc{
+    text-align: center;
+    margin: 10px 10px;
+}
+footer .doc a{
+    color: rgb(206, 197, 197);
+    margin: 10px;
+    font-size: 1.1rem;
+}
+footer .doc a:hover{
+    color: rgb(48, 44, 44);
+}
+
+/* footer follow us */
+footer .social{
+    text-align: center;
+    margin: 10px 10px;
+}
+footer .social a{
+    font-size: 1.2rem;
+}
+
+/* footer contact us */
+footer .contact{
+    text-align: center;
+    margin: 10px 10px;
+}
+footer .contact a{
+    font-size: 1.2rem;
+}
+
+/* social Logos */
+.fa-brands{
+    color: black;
+}
+.fa-brands:hover{
+    color: rgb(71, 66, 66);
+}
+
+/* contact logos */
+.fa-brands{
+    color: black;
+}
+.fa-brands:hover{
+    color: rgb(71, 66, 66);
+}
+.fa-solid{
+    color: black;
+}
+.fa-solid:hover{
+    color: rgb(71, 66, 66);
+}
+
